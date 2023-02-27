@@ -1,0 +1,32 @@
+html{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+        background-color: black;
+    
+}
+
+.myInfo{
+    text-align: center;
+    font-size: 15px;
+    background-color:rgb(140, 156, 151);
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+
+aside{
+    margin:auto;
+    text-align: center;
+    padding: 5px 0 5px  0;
+    text-transform: uppercase;
+    background-color:burlywood;
+}
+
+article{
+    background-color: rgb(140, 156, 151);
+}
+
+
+footer{
+    background-color:burlywood;
+}
