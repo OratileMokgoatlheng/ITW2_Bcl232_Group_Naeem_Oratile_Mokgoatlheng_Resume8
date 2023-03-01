@@ -1,18 +1,22 @@
+/* this code allows my code to have a grey-ish backround with a monospace font family and have solid white border around it */
 body {
     background-color: #999;
     font-family: 'Courier New', Courier, monospace;
     border: solid white;
 }
 
+/* the font color of my list will be white */
 li {
     color: white;
 }
 
+/* This allows my image to be 50% the actual size and circled with a solid white border */
 img {
     border-radius: 50%;
     border: solid white;
 }
 
+/* This code changes the background of my header to gainsboro and the font to black and centers the whole heading with 1px padidng and 0 margin */
 .header {
     background-color: gainsboro;
     color: rgb(0, 0, 0);
@@ -22,14 +26,17 @@ img {
     margin: 0;
 }
 
+/* my padding for content will be p */
 .content {
     padding: 0;
 }
 
+/* my heading font for qualification text will be white  */
 .qualifications h3 {
     color: white;
 }
 
+/* This code allows the width to be 150px from left with 10 pixels padding and changes color and has its own border */
 #aside {
     width: 150px;
     padding: 10px;
@@ -38,44 +45,53 @@ img {
     margin: 0
 }
 
+/* The link for aside section wild be in bold text */
 aside a {
     font-weight: bold;
 }
 
+/* When hovering on the aside links the color will be black and in bold */
 aside a:hover {
     color: black;
     font-weight: bold;
 
 }
 
+/* all links in the website will black when hovered */
 a:hover {
     color: black;
 }
 
+/* This removes the bullets in aside unoredred list */
 aside ul {
     list-style-type: none;
     padding: 0;
 }
 
+/* Large headings will have 0 margins */
 h1 {
     margin: 0;
 }
 
+/* For better spacing and readerbility, all paragraphs will have a spacing of five pixels */
 p {
     margin: 5px;
 }
 
+/* h2 heading in the web page will have white font color */
 h2 {
     color: white;
 }
 
+/* This moves the main content a little to the right */
 #main {
     padding-left: 40px;
-    float: right;
+    
     border: solid white;
     margin: 0;
 }
 
+/* my footer code allows the code in the container to be accomodated  */
 #footer {
     clear: both;
     padding: 10px;
@@ -84,6 +100,7 @@ h2 {
     margin: 0;
 }
 
+/* heading font color for footer will be black */
 #footer h2 {
     color: rgb(0, 0, 0);
 
