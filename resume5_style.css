@@ -1,76 +1,90 @@
-body{
+body {
     background-color: #999;
     font-family: 'Courier New', Courier, monospace;
-    border:  solid white;
+    border: solid white;
 }
 
-li{
+li {
     color: white;
 }
-img{
+
+img {
     border-radius: 50%;
     border: solid white;
 }
-.header{
-background-color: gainsboro;
-color: rgb(0, 0, 0);
-text-align: center;
-padding-bottom: 1px;
-border:solid white;
-margin: 0;
+
+.header {
+    background-color: gainsboro;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-bottom: 1px;
+    border: solid white;
+    margin: 0;
 }
-.content{
-   padding: 0;
-   }
-.qualifications h3{
+
+.content {
+    padding: 0;
+}
+
+.qualifications h3 {
     color: white;
 }
-#aside{
+
+#aside {
     width: 150px;
     padding: 10px;
     background-color: gainsboro;
     border: solid white;
-    margin:0
+    margin: 0
 }
-aside a{
+
+aside a {
     font-weight: bold;
 }
-aside a:hover{
+
+aside a:hover {
     color: black;
     font-weight: bold;
-    
+
 }
-a:hover{
+
+a:hover {
     color: black;
 }
-aside ul{
+
+aside ul {
     list-style-type: none;
     padding: 0;
 }
-h1{
+
+h1 {
     margin: 0;
 }
-p{
+
+p {
     margin: 5px;
 }
-h2{
+
+h2 {
     color: white;
 }
-#main{
-padding-left: 40px;
-float: right;
-border: solid white;
-margin: 0;
+
+#main {
+    padding-left: 40px;
+    float: right;
+    border: solid white;
+    margin: 0;
 }
 
-#footer{
+#footer {
     clear: both;
     padding: 10px;
     border: solid white;
-    background-color:gainsboro;
+    background-color: gainsboro;
     margin: 0;
 }
-#footer h2{
+
+#footer h2 {
     color: rgb(0, 0, 0);
-    
+
 }
