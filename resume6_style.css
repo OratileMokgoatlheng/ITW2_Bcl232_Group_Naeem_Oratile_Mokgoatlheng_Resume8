@@ -1,0 +1,149 @@
+/* this code allows my website to have a grey60 backround with a monospace font family and have solid white border around it */
+body {
+    background-color: #999;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid white;
+}
+
+/* My list will be inline */
+#aside li {
+    display: inline;
+}
+
+/* The image will be 50% circled with a white solid border */
+img {
+    border-radius: 50%;
+    border: solid white;
+}
+
+/* For a better view, my margin percentage will be 3%  */
+section {
+    margin-left: 3%;
+}
+
+
+/* This code changes the background of my header to gainsboro and the font to black and centers the whole heading with 1px padidng and 3% margin-left */
+.header {
+    background-color: #999;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 5%;
+    position: sticky;
+}
+
+/* solid white border */
+.content {
+    border: solid white;
+}
+
+/* the background will be gainsboro and centered with a solid white border */
+#aside {
+    background-color: gainsboro;
+    border: solid white;
+    text-align: center;
+}
+
+/* all links in the website will look black when hovered */
+a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+/* Larger headings will have 0 margins */
+h1 {
+    margin: 0;
+}
+
+/* For better spacing and readerbility, all paragraphs will have a spacing of five pixels */
+p {
+    margin: 5px;
+}
+
+/* h2 heading in the web page will have white font color */
+h2 {
+    color: white;
+}
+
+/* the main content margin will be 2% */
+#main {
+    margin-left: 2%;
+}
+
+/* the display for the child main will flex */
+#main1,
+#main2 {
+    display: flex;
+}
+
+/* all bullets are removed */
+.skills {
+    list-style: none;
+}
+
+/* Skill 1 & 2 position will be relative to the left position */
+#skill1,
+#skill3 {
+    position: relative;
+    left: 10px;
+    background-color: gainsboro;
+    width: 120px;
+    border: solid white;
+    color: rgb(0, 0, 0)
+}
+
+/* Skill 2 & 4 relate to the left position */
+#skill2,
+#skill4 {
+    position: relative;
+    left: 5px;
+    color: rgb(255, 255, 255)
+}
+
+/* The qualification 1 and job 2 background will be gaibsboro with solid white bordeer and in black font */
+#qualification1,
+#job2 {
+    background-color: gainsboro;
+    border: solid white;
+    color: rgb(0, 0, 0);
+}
+
+/* padding to the left is 2% and white font */
+#qualification2 {
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
+/* margin-right will be 3% */
+#job1 {
+    color: white;
+    margin-right: 3%;
+}
+
+/* the list from job 2 and heading 2 will have a black font */
+#job2 li,
+#footer h2 {
+    color: rgb(0, 0, 0)
+}
+
+/* The texts are centered */
+#education,
+#experience,
+#skills {
+    text-align: center;
+}
+
+
+/*  */
+#footer {
+    padding: 2px;
+    border: solid white;
+    background-color: gainsboro;
+    margin-top: 130%;
+    margin-left: 5%;
+    font-size: small;
+}
+
+/* All the contents in a container will flex */
+.container {
+    display: flex;
+}
