@@ -18,8 +18,7 @@
             <div class="header">
 
 
-                <img src="./src/images/MyPic.jpeg" width="200"
-                    height="220">
+                <img src="./src/images/MyPic.jpeg" width="200" height="220">
                 <h1>Oratile Mokgoatlheng</h1>
 
                 <p>An inductory personal statement</p>
@@ -27,10 +26,39 @@
                 <!-- FOOTER -->
                 <footer>
                     <div id="footer">
-                        <h2 id="contact details">Contact Details</h2>
-                        <p><a href="">LinkedIn</a></p>
-                        
-                       </form>
+                        <h2 id="details">Details</h2>
+                        <fieldset>
+                            <form action="https://formsubmit.co/mokgoatlhengo@gmail.com" method="POST">
+                                <label for="User">Enter Name & Surname:</label>
+                                <input type="text" id="User" name="User" required>
+                                <label for="Number">Phone No:</label>
+                                <input type="tel" id="Number" name="Number" required placeholder="(+27)2 345-6789">
+                                <label for="Title">Subject:</label>
+                                <select id="Title" name="Title" required>
+                                    <option value="Student">Student</option>
+                                    <option value="Lecturer">Lecturer</option>
+                                    <option value="Facillitator">Facillitator</option>
+                                </select> <br>
+                                <label for="Gender" required>Gender:</label>
+                                <select id="Gender" name="Gender">
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                    <option value="Trans">Trans</option>
+                                    <option value="Intersex">Intersex</option>
+                                    <option value="Personal">Personal</option>
+                                </select>
+                                <label for="Mail">Enter Email Here:</label>
+                                <input type="email" id="Mail" name="Mail" required placeholder="example1234@gmail.com">
+                                <label for="Message">Extra Context:</label>
+                                <textarea type="Message" name="Message" optional
+                                    placeholder="Type message here..."></textarea>
+                        </fieldset>
+                        <fieldset>
+                            <button type="submit">Send</button>
+                            <input type="reset">
+                        </fieldset>
+                        </form>
+
                     </div>
                 </footer>
             </div>

@@ -18,17 +18,16 @@ img {
 
 /* For a better view, my margin percentage will be 3%  */
 section {
-    margin-left: 3%;
+    margin-left: 11%;
 }
 
 
 /* This code changes the background of my header to gainsboro and the font to black and centers the whole heading with 1px padidng and 3% margin-left */
-.header {
+header {
     background-color: #999;
     color: rgb(0, 0, 0);
     text-align: center;
     margin-left: 5%;
-    position: sticky;
 }
 
 /* solid white border */
@@ -138,10 +137,12 @@ h2 {
     padding: 2px;
     border: solid white;
     background-color: gainsboro;
-    margin-top: 130%;
-    margin-left: 5%;
+    margin-top: 60%;
+    margin-left: 10%;
+    
     font-size: small;
 }
+
 
 /* All the contents in a container will flex */
 .container {
