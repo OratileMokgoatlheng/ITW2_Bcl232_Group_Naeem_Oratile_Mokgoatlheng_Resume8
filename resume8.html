@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<!-- HEAD -->
+
+<head>
+
+    <title>My Digital Resume</title>
+    <link rel="stylesheet" href="./src/css/resume8.css">
+    <meta name="viewport", content="width=device-width", initial-scale="1.0">
+</head>
+
+<!-- BODY -->
+
+<body>
+
+    <div class="container">
+
+        <!-- HEADER -->
+        <header>
+            <!-- MAMIN HEADING FOR FOOTER -->
+            <div id="mainHeading">
+
+                <!-- PICTURE ELEMENT FOR BETTER USER EXPERIENCE -->
+
+                <picture>
+                    
+                    <source srcset="./src/images/small.jpeg" media="(max-width: 600px)">
+
+                    <source srcset="./src/images/medium.jpeg" media="(max-width: 991px)">
+
+                    <img src="./src/images/large.jpeg" width="20%" height="30%" alt="Portrait Image">
+
+                </picture>
+
+                <h1>Oratile Mokgoatlheng</h1>
+
+                <p>An inductory personal statement</p>
+
+            </div>
+
+        </header>
+
+        <!-- SECTION -->
+        <section>
+            <div class="content">
+
+                <aside>
+
+                    <div id="aside">
+
+                        <ul>
+
+                            <h2>MENU</h2>
+
+                            <li><a href="#education">Education</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#skills">Skills</a></li>
+
+                        </ul>
+                    </div>
+                </aside>
+
+                <!-- ARTICLE -->
+                <article>
+
+                    <!-- MAIN CONTENT -->
+                    <div id="main">
+
+                        <h2 id="education">Education</h2>
+
+                        <h3>Intro to Web at <a href="">CodeSpace Academy</a></h3>
+
+                        <div class="qualifications">
+
+                            <div id="main1">
+
+                                <div id="qualification1">
+
+                                    <h3> Qualification 1</h3>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et
+                                        dolore
+                                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                        nisi ut aliquip ex ea
+                                        commodo
+                                        consequat.</p>
+
+                                </div>
+
+                                <div id="qualification2">
+
+                                    <h3>Qualification 2</h3>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et
+                                        dolore
+                                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                        nisi ut aliquip ex ea
+                                        commodo
+                                        consequat.</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <h2 id="experience">Experience</h2>
+
+                        <div class="job">
+
+                            <div id="main2">
+
+                                <div id="job1">
+
+                                    <h3 id="job">Job 1</h3>
+
+                                    <p>
+                                    <ul>
+                                        <li>A sentence about the responsibilities of the job</li>
+                                        <li>A sentence about the responsibilities of the job</li>
+                                        <li>A sentence about the responsibilities of the job</li>
+                                        <li>A sentence about the responsibilities of the job</li>
+                                    </ul>
+                                    </p>
+
+                                </div>
+
+                                <div id="job2">
+
+                                    <h3 id="job">Job 2</h3>
+
+                                    <p>
+                                    <ul>
+                                        <li>A sentence about the responsibilities of the job</li>
+                                        <li>A sentence about the responsibilities of the job</li>
+                                        <li>A sentence about the responsibilities of the job</li>
+                                        <li>A sentence about the responsibilities of the job</li>
+                                    </ul>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <h2 id="skills">Skills</h2>
+
+                        <div id="main3">
+
+                            <p>
+                            <ul>
+                                <div class="skills">
+                                    <li id="skill1">Skill 1</li>
+                                    <li id="skill2">Skill 2</li>
+                                    <li id="skill3">Skill 3</li>
+                                    <li id="skill4">Skill 4</li>
+                                </div>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <article>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+
+<!-- FOOTER -->
+<footer>
+
+    <div id="footer">
+
+       <h2 id="details">Details</h2>
+
+        <!-- FIELDSET FOR MY FOOTER AND FORM -->
+        <fieldset>
+
+            <form action="https://formsubmit.co/mokgoatlhengo@gmail.com" method="POST">
+                <div>
+                <label for="User">Enter Name & Surname:</label>
+                <input type="text" id="User" name="User" required>
+            </div>
+                <label for="Number">Phone No:</label>
+                <input type="tel" id="Number" name="Number" required placeholder="(+27)2 345-6789">
+            <div>
+                <label for="Title">Subject:</label>
+                <select id="Title" name="Title" required>
+                    <option value="Student">Student</option>
+                    <option value="Lecturer">Lecturer</option>
+                    <option value="Facillitator">Facillitator</option>
+                </select> <br>
+            </div>
+
+                <label for="Gender" required>Gender:</label>
+                <select id="Gender" name="Gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Trans">Trans</option>
+                    <option value="Intersex">Intersex</option>
+                    <option value="Personal">Personal</option>
+                </select>
+            <div>
+                <label for="Mail">Enter Email Here:</label>
+                <input type="email" id="Mail" name="Mail" required placeholder="example1234@gmail.com">
+            </div>
+                <label for="Message">Extra Context:</label>
+                <textarea type="Message" name="Message" cols="10" optional placeholder="Type message here..."></textarea>
+
+
+        </fieldset>
+
+        <fieldset id="respond">
+
+            <button type="submit">Send</button>
+            <input type="reset">
+
+        </fieldset>
+        </form>
+
+    </div>
+</footer>
+
+</html>
